@@ -28,7 +28,7 @@ function Footer({ labels }: FooterProps) {
             }}
           />
           <p className="mt-3 text-sm text-slate-200">G-Licon Motors LLC</p>
-          <p className="text-sm text-slate-300">Hutto, Texas</p>
+          <p className="text-sm text-slate-300">Austin, Texas</p>
         </div>
 
         <div>

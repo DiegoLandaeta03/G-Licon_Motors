@@ -38,7 +38,7 @@ function Header({ language, onLanguageChange, labels }: HeaderProps) {
           />
           <div className="hidden text-left sm:block">
             <p className="text-sm font-extrabold text-brand-navy md:text-base">G-Licon Motors LLC</p>
-            <p className="text-xs text-slate-500">Hutto, Texas</p>
+            <p className="text-xs text-slate-500">Austin, Texas</p>
           </div>
           <span className="hidden rounded-full bg-brand-red px-2 py-1 text-[10px] font-semibold uppercase tracking-wide text-white lg:inline-flex">
             {labels.dealerAuthorized}
@@ -61,24 +61,26 @@ function Header({ language, onLanguageChange, labels }: HeaderProps) {
           <LanguageToggle language={language} onChange={onLanguageChange} />
         </div>
 
-        <button
-          type="button"
-          className="inline-flex rounded-xl border border-slate-200 bg-white p-2 text-slate-600 shadow-sm transition hover:border-brand-navy hover:text-brand-navy md:hidden"
-          onClick={() => setMenuOpen((prev) => !prev)}
-          aria-label="Toggle menu"
-          aria-expanded={menuOpen}
-        >
-          {menuOpen ? '✕' : '☰'}
-        </button>
+        <div className="flex items-center gap-2 md:hidden">
+          <LanguageToggle language={language} onChange={onLanguageChange} />
+          <button
+            type="button"
+            className="inline-flex rounded-xl border border-slate-200 bg-white p-2 text-slate-600 shadow-sm transition hover:border-brand-navy hover:text-brand-navy"
+            onClick={() => setMenuOpen((prev) => !prev)}
+            aria-label="Toggle menu"
+            aria-expanded={menuOpen}
+          >
+            {menuOpen ? '✕' : '☰'}
+          </button>
+        </div>
       </div>
 
       {menuOpen && (
         <div className="animate-fade-in border-t border-slate-200 bg-white px-4 py-4 md:hidden">
-          <div className="mb-4 flex items-center justify-between">
+          <div className="mb-4">
             <span className="rounded-full bg-brand-red px-2 py-1 text-[10px] font-semibold uppercase tracking-wide text-white">
               {labels.dealerAuthorized}
             </span>
-            <LanguageToggle language={language} onChange={onLanguageChange} />
           </div>
           <nav className="grid gap-2">
             {links.map((link) => (

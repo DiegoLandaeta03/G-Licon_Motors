@@ -18,7 +18,7 @@ export const translations = {
       dealerAuthorized: 'Dealer Authorized',
     },
     hero: {
-      headline: 'Reliable Auto Repair, Body Shop Services & Used Cars in Hutto, Texas',
+      headline: 'Reliable Auto Repair, Body Shop Services & Used Cars in Austin, Texas',
       subtext:
         'Family-owned automotive shop helping you repair, restore, and find your next vehicle.',
     },
@@ -135,7 +135,7 @@ export const translations = {
       dealerAuthorized: 'Distribuidor Autorizado',
     },
     hero: {
-      headline: 'Reparación de Autos, Latonería, Pintura y Venta de Carros Usados en Hutto, Texas',
+      headline: 'Reparación de Autos, Latonería, Pintura y Venta de Carros Usados en Austin, Texas',
       subtext:
         'Taller familiar ayudándote a reparar, restaurar y encontrar tu próximo vehículo.',
     },
