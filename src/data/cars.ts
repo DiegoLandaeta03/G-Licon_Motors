@@ -62,7 +62,7 @@ export const cars: Car[] = [
     fuelType: 'Gasoline',
     exteriorColor: 'Gray',
     imageUrl:
-      'https://images.unsplash.com/photo-1584345604476-8ec5f452d1f2?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=1200&q=80',
     description: 'Well-maintained commuter sedan with remote start and premium interior touches.',
     status: 'Available',
   },

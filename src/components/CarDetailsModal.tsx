@@ -49,6 +49,9 @@ function CarDetailsModal({ car, isOpen, onClose, labels }: CarDetailsModalProps)
             src={car.imageUrl}
             alt={`${car.year} ${car.make} ${car.model}`}
             className="h-64 w-full rounded-2xl object-cover md:h-full md:max-h-[420px]"
+            onError={(event) => {
+              event.currentTarget.src = '/logo.png'
+            }}
           />
 
           <div>

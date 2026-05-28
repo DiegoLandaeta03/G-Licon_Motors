@@ -37,6 +37,9 @@ function CarCard({ car, labels, onViewDetails }: CarCardProps) {
           src={car.imageUrl}
           alt={`${car.year} ${car.make} ${car.model}`}
           className="h-52 w-full object-cover transition duration-500 group-hover:scale-105"
+          onError={(event) => {
+            event.currentTarget.src = '/logo.png'
+          }}
         />
         <span
           className={`absolute right-3 top-3 rounded-full px-2.5 py-1 text-xs font-semibold shadow-sm ${statusStyles[car.status]}`}
