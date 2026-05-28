@@ -1,0 +1,10 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="240" rx="120" fill="#0B2341"/>
+  <path d="M50 132C64 104 90 88 124 88C154 88 177 101 192 125L169 125C157 110 141 104 122 104C97 104 78 115 66 132H50Z" fill="#FFFFFF"/>
+  <path d="M56 145H188C178 166 154 181 124 181C93 181 68 166 56 145Z" fill="#CC1F2F"/>
+  <circle cx="88" cy="150" r="16" fill="#FFFFFF"/>
+  <circle cx="160" cy="150" r="16" fill="#FFFFFF"/>
+  <circle cx="88" cy="150" r="8" fill="#0B2341"/>
+  <circle cx="160" cy="150" r="8" fill="#0B2341"/>
+  <text x="120" y="70" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="16" font-weight="700">G-LICON</text>
+</svg>
